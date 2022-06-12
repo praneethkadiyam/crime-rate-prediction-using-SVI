@@ -12,16 +12,20 @@ Data Preaparation is handled in ArcGIS/QGIS softwares and is out of scope of thi
 
 Folder heirarchy and structure
 
-.
-├── CODES
-├── DATA
-|   ├── whole_dataset
-├── FILES
-├── GIS
-|   ├── boundary_files
-|   ├── crime_data
-|   ├── road_network
-├── WEIGHTS
+📦crime-rate-prediction-using-SVI
+ ┣ 📂CODES
+ ┃ ┣ 📜resnet_results.ipynb
+ ┃ ┣ 📜resnet_train.ipynb
+ ┃ ┗ 📜svi.ipynb
+ ┣ 📂DATA
+ ┣ 📂FILES
+ ┣ 📂GIS
+ ┣ 📂WEIGHTS
+ ┃ ┣ 📜resnet18_places365.h5
+ ┃ ┗ 📜resnet18_places365.pth.tar
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┗ 📜requirements.txt
 
 The converted model from pytorch to keras is included. All the other files are specific to the chosen location and type of crimes considered for analysis.
 
