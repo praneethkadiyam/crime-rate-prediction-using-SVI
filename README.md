@@ -13,19 +13,19 @@ Data Preaparation is handled in ArcGIS/QGIS softwares and is out of scope of thi
 Folder heirarchy and structure
 
 .
-+-- CODES
-+-- DATA
-| +-- whole_dataset
-+-- FILES
-+-- GIS
-| +-- boundary_files
-| +-- crime_data
-| +-- road_network
-+-- WEIGHTS
+├── CODES
+├── DATA
+|   ├── whole_dataset
+├── FILES
+├── GIS
+|   ├── boundary_files
+|   ├── crime_data
+|   ├── road_network
+├── WEIGHTS
 
 The converted model from pytorch to keras is included. All the other files are specific to the chosen location and type of crimes considered for analysis.
 
-For further imformation on methodology, please refer to [Crime rate prediciton using Streer View Images](http://essay.utwente.nl/88644/)
+For further imformation on methodology, please refer to [Crime rate prediciton using Street View Images](http://essay.utwente.nl/88644/)
 
 ### Setting up the environment. 
 
