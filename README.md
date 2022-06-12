@@ -12,6 +12,7 @@ Data Preaparation is handled in ArcGIS/QGIS softwares and is out of scope of thi
 
 Folder heirarchy and structure
 
+```
 📦crime-rate-prediction-using-SVI
  ┣ 📂CODES
  ┃ ┣ 📜resnet_results.ipynb
@@ -26,6 +27,7 @@ Folder heirarchy and structure
  ┣ 📜.gitignore
  ┣ 📜README.md
  ┗ 📜requirements.txt
+ ```
 
 The converted model from pytorch to keras is included. All the other files are specific to the chosen location and type of crimes considered for analysis.
 
